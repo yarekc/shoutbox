@@ -1,0 +1,35 @@
+<html>
+<head>
+<script src="jquery.min.js"></script>
+<script src="script.js"></script>
+<script src="socket.io.js"></script>
+
+</head>
+
+
+<body>
+
+
+<link rel="stylesheet" type="text/css" href="shoutbox.css">
+
+    <div class="shoutBoxContainer">
+        <div id="shoutBoxHeader" class="shoutBoxHeader">
+            <img src="users.png" alt="users online"/>
+            <img src="config.png" id="shoutBoxAdminImage" alt="users online" style="float:right;margin-top: 2px;" title="login admin"/>
+            
+            <div id="shoutBoxHeaderText"></div>
+            <div id="shoutBoxUserList">
+            </div>
+        </div>
+        <div id ="shoutChat" class="shoutChat"></div>
+        <div class="shoutInput">
+            <input class="shoutInputRed" required type="text" id="shoutBoxInput" placeholder="Enter your nickname">
+            <div class="adShoutBox">
+                Get your own <a href="http://www.shoutbox.com" title="get your free shout box">free shoutbox</a>
+            </div>
+        </div>        
+</div>
+
+</body>
+
+</html>

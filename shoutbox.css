@@ -1,0 +1,177 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+body {
+width:480px;
+height:360px;
+}
+.adShoutBox {
+	font-size:0.6em;
+	float:right;
+}
+.shoutBoxContainer {
+	position:relative;
+	width:100%;
+	height:360px;
+	border:1px solid  #CCC;
+	padding:5px;
+	font-size:13px;
+	font-family: 'Open Sans', sans-serif;
+	border-radius:3px;
+	
+}
+.adminShoutBoxInput {
+	background-color:red;
+}
+.shoutBoxHeader {
+	border:1px solid #CCC;
+	padding:2px;
+	background-color:#EEE;
+	cursor:pointer;
+	z-index:1;
+	position:absolute;
+	left:5px;
+	right:5px;
+	box-shadow: 2px 2px 3px 0px #CCC;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;	
+}
+.shoutServerText {
+	border:1px solid #215501;
+	border-radius:5px;
+	padding:4px;
+	margin-bottom:3px;
+	margin-top:3px;	
+	margin-right:5px;
+	background-color:#C2E99E;
+	opacity:0.7;
+}
+.shoutboxBanBtn {
+	font-size:0.8em;
+	float:right;
+	float:right;
+	cursor:pointer;
+	display:none;
+	background-color:red;
+	border:1px solid #000;
+	margin:1px;
+	padding:1px;
+	
+}
+.shoutboxDelBtn {
+	font-size:0.8em;
+	float:right;
+	float:right;
+	cursor:pointer;
+	display:none;
+	border:1px solid #000;
+	margin:1px;
+	padding:1px;
+}
+
+.shoutDate {
+	font-size:0.9em;
+}
+.shoutBoxAvatar {
+	width:24px;
+	height:24px;
+	margin-right: 5px;
+	border-radius: 20px;
+}
+#shoutBoxUserList {
+	overflow:hidden;
+	max-height:120px;
+	overflow-y:scroll;
+	display:none;
+}
+.shoutBoxUserItem {
+	border:1px solid #EEE;
+	padding:2px;
+}
+.shoutBoxUserItem:hover {
+	background-color:#DDD;
+}
+.shoutText {
+	font-size:0.9em;
+	border:1px solid #DDD;
+	border-radius:3px;
+	padding:4px;
+	margin-bottom:3px;
+	margin-top:3px;	
+	margin-right:5px;
+	background-color:rgba(255, 255, 255, 0.2);
+}
+.shoutText:hover {
+	background-color:#FFF;
+}
+#shoutBoxHeaderText {
+	display:inline-block;
+	
+}
+.shoutChat {
+	position:absolute;
+	left:5px;
+	right:5px;
+	top:35px;
+	bottom:45px;
+	overflow-y : scroll;
+	overflow-x : hidden;
+}
+.shoutInputRed {
+	background-color:#F7CFD0;
+
+}
+
+.shoutInput {
+	position:absolute;
+	bottom:00px;
+	left:5px;
+	right:5px;
+	border-top:1px solid #CCC;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	
+}
+:focus {outline:none;border:1px solid red}
+
+.shoutInput input {
+	width:calc(100% - 0px);
+	color:black;
+	border-radius:3px;
+	border:1px solid #CCC;
+	padding-left: 10px;
+	padding-right: 10px;
+	/*font-size: 1.1em;	*/
+}
+.shoutUserText {
+	font-weight:bold;
+	font-size:0.8em;
+}
+
+::-webkit-scrollbar
+{
+  width: 10px;  /* for vertical scrollbars */
+}
+
+::-webkit-scrollbar-track
+{
+  background: rgba(0, 0, 0, 0.1);
+  border-radius:20px;
+}
+
+::-webkit-scrollbar-thumb
+{
+  background: rgba(0, 0, 0, 0.3);
+  border-radius:20px;
+}
+
+.privateChat {
+	width:250px;
+	height:250px;
+	background-color:red;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;	
+}
